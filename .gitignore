@@ -1,0 +1,47 @@
+# General
+[Tt]humbs.db
+[Dd]esktop.ini
+*.vspscc
+*.vssscc
+
+# Visual Studio / Rider
+.vs/
+.idea/
+.vs2017/
+.vs2019/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ide
+*.ide-wl
+*.opendb
+*.dbmdl
+*.jfm
+*.gpState
+*.sln.ide-wl
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nuget/
+packages/
+*.nupkg
+*.snupkg
+*.paket/paket-files/
