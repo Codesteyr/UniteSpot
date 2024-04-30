@@ -53,8 +53,9 @@ namespace ReplaceNewSpot {
                 if (matchingSpawn != null) {
                     matchingSpawn.ReplaceNodes(secondSpawn.Elements("spot"));
                 } else {
-                    // If spawn is not found in the first file, add the entire block to the first document
-                    firstDoc.Root?.Add(secondSpawn);
+                    // If spawn is not found in the first file, add the entire block to the <spawn_map> element in the first document
+                    firstDoc.Root?.Element("spawn_map")?.Add(secondSpawn);
+
                 }
             }
         }
